@@ -1,7 +1,9 @@
-idade = int(input("Digite sua idade: "))
-if(idade < 16):
-    print("Não pode votar")
-elif (idade >= 18 and idade < 80):
-    print("Voto obrigatorio")
-else:
-    print("Voto opcional")
+num1 = int(input("Digite o primeiro inteiro: "))
+num2 = int(input("Digite o segundo inteiro: "))
+num3 = float(input("Digite um número com vírgula: "))
+print("Produto do dobro do primeiro pela metade do segundo: ")
+print((2*num1) * (num2/2))
+print("Soma do triplo do primeiro com o terceiro: ")
+print((3*num1) + num3)
+print("Cubo do terceiro: ")
+print(num3**3)
