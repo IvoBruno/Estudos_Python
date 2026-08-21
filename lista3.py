@@ -51,4 +51,4 @@ def q5_conta_letra ():
 # q2_substitui_banana_maca()
 # q3_substitui_vogais()
 # q4_inverte_nome()
-q5_conta_letra()
+# q5_conta_letra()
