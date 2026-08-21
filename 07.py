@@ -12,13 +12,11 @@ def calcular_raiz_quadrada():
         print("A raiz quadrada de 0 é: 0.0000")
         return
 
-    # Método Babilônico / Newton-Raphson
-    tolerancia = 1e-6  # Garante precisão acima de 4 casas decimais
+    tolerancia = 1e-6 
     estimativa = numero / 2.0
 
     while True:
         proxima_estimativa = (estimativa + (numero / estimativa)) / 2.0
-        # Condição de parada baseada na diferença entre iterações
         if abs(proxima_estimativa - estimativa) < tolerancia:
             break
         estimativa = proxima_estimativa
