@@ -54,4 +54,4 @@ def q5_arvore():
 #q2_upper_strings()
 #q3_soma_tupla()
 #q4_tupla_lista()
-q5_arvore()
+#q5_arvore()
