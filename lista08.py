@@ -63,7 +63,8 @@ def q4_contador_acessos():
         f.write(str(total))
     print(f"Este sistema já foi acessado {total} vezes.")
 
-#q1_total_produtos()
-#q2_loja_json()
-#q3_contador_palavras()
-q4_contador_acessos()
+if __name__ == "__main__":
+    # q1_total_produtos()
+    # q2_loja_json()
+    # q3_contador_palavras()
+    q4_contador_acessos()
