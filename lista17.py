@@ -2,11 +2,6 @@ import json
 import random
 import streamlit as st
 
-class Aluno():
-    def __init__(self, id, nome):
-        self.id = id
-        self.nome = nome
-
 if "alunos" not in st.session_state:
     st.session_state.alunos = [
         {"id": 1, "nome": "Alice"},
