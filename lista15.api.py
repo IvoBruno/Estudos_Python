@@ -73,4 +73,4 @@ async def deletar_tarefa(id: int):
     raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Tarefa não encontrada")
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    inicia_fastapi()
